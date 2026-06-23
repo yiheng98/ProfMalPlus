@@ -1,0 +1,9 @@
+joern_path: "./joern-cli-4.0.227/joern-cli" # set the path of the joern-cli
+
+npm_metadata_cache: # Configuration for npm_metadata_cache
+  dir: # Specify the cache directory for npm_metadata_cache; leave empty or unset to use the default directory
+
+LLM:
+  model: "deepseek-v4-flash"
+  api_key: "your_api_key"
+  base_url: "https://api.deepseek.com" # The official Deepseek API endpoint.
