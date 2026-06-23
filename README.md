@@ -1,10 +1,14 @@
 # ProfMalPlus
 
-<p align="center">
-  <img src="png/logo_codewisdom.png" alt="CodeWisdom logo" width="360">
-</p>
-
-ProfMalPlus is affiliated with the [Software Engineering Lab of Fudan University (CodeWisdom Research Team / 复旦大学软件工程实验室-CodeWisdom团队)](http://www.se.fudan.edu.cn/).
+<div align="center">
+  <a href="http://www.se.fudan.edu.cn/">
+    <img src="png/logo_codewisdom.png" alt="CodeWisdom logo" width="340">
+  </a>
+  <br>
+  <strong>Software Engineering Lab, Fudan University</strong>
+  <br>
+  <sub>CodeWisdom Research Team · 复旦大学软件工程实验室（暨 CodeWisdom 研究团队）</sub>
+</div>
 
 ## Overview
 
