@@ -18,7 +18,7 @@ Based on these graphs, ProfMalPlus extracts security-relevant code slices and au
 
 ## Paper
 
-Paper link: [TBD](TBD)
+Paper link: [ProfMalPlus: Agent-Coordinated Detection of Malicious NPM Packages via Static-Dynamic Analysis Synergy](https://arxiv.org/abs/2607.13965)
 
 ## Getting started
 
