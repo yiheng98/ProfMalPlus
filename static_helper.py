@@ -37,13 +37,13 @@ def generate_static_info(
     pdg_graph_dict, cpg = joern_helper.joern_preprocess(format_dir, pdg_dir, cfg_dir, cpg_dir, 8)
 
     if not len(os.listdir(pdg_dir)):
-        logger.error("joern pdg不存在")
+        logger.error("Joern PDG output is missing")
         raise JoernGenerationException("Joern pdg missing")
     if not len(os.listdir(cfg_dir)):
-        logger.error("joern cfg不存在")
+        logger.error("Joern CFG output is missing")
         raise JoernGenerationException("Joern cfg missing")
     if not len(os.listdir(cpg_dir)):
-        logger.error("joern cpg不存在")
+        logger.error("Joern CPG output is missing")
         raise JoernGenerationException("Joern cpg missing")
     static_code_info = CodeInfo(format_dir, pdg_dir, cpg_dir, pdg_graph_dict, cpg)
     static_code_info.build_static_call_graph(jelly_cg_path)
